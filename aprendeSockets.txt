@@ -1,0 +1,5 @@
+Para crear este proyecto con Socket.io y Node.js hay que lanzar el comando npm init en la carpeta del proyecto, crear la carpeta server y client.
+Meter express en el proyecto: npm install express --save
+Luego socket.io: npm install socket.io --save
+Luego nodemon para actualizar automaticamente las paginas: npm install nodemon --save-dev // Dev para que no haga efecto cuando tengamos el proyecto en un server externo.
+"start": "nodemon server/index.js" Meter esto en scripts en el packages.json para que lanze nodemon cuando empiece la aplicacion.
